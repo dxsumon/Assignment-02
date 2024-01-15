@@ -1,63 +1,161 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
+
 /* Shared Styles */
-.text-title{
-
+main {
+    max-width: 1170px;
+    margin: 0 auto;
 }
-.primary-btn{
 
+.text-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
 }
-.primary-description{
 
+.primary-btn {
+    border-radius: 8px;
+    background: #FF5400;
 }
+
+.primary-description {
+    color: #FFF;
+    font-size: 1rem;
+    line-height: 26px;
+}
+
 /* Header Styles */
-header{
+header {
     box-shadow: 0px 2px 1px rgb(0 0 0 / 20%);
+    position: sticky;
+    top: 0;
+    background-color: #FFF;
 }
-nav{
+
+nav {
     max-width: 1170px;
     margin: 0 auto;
     padding: 20px 0;
-    position: sticky;
 }
-.navbar,ul{
+
+.navbar,
+ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 44px;
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
 }
-.navbar>ul>li,a{
+
+.navbar>ul>li,
+a {
     list-style: none;
     text-decoration: none;
     font-size: 1.2rem;
     color: #424247;
 }
-.navbar ul>li>a:hover{
-    color: #868B8E;
+
+.navbar ul>li>a:hover {
+    color: #FF5400;
 }
-.navbar h2{
+
+.navbar ul>li:hover {
+    transform: scale(1.2);
+    transition: all 500ms ease-in-out;
+}
+
+.navbar h2 {
     font-size: 2rem;
     color: #131318;
     font-weight: 800;
 }
-#logo-style{
+
+#logo-style {
     color: #FF5400;
 }
-#home{
+
+#home {
     color: #FF5400;
 }
+
 /* Humburger-For-Mobile-Devices */
-#humburger-menu{
+#humburger-menu {
     display: none;
+}
+
+/* Main section styles */
+
+.banner-container {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.banner-container .primary-description {
+    padding: 0 247px;
+}
+
+.banner-container h1 {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    padding: 0 287px;
+    padding-top: 106px;
+    padding-bottom: 25px;
+}
+
+/* From section */
+.form-section {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin-top: 45px;
+}
+
+.search-bar {
+    display: inline;
+    margin-right: 20px;
+}
+
+.search-bar:last-child {
+    margin-right: 0;
+}
+
+.form-section .primary-btn {
+    width: 174px;
+    height: 52px;
+    border: none;
+    color: #FFF;
+}
+
+.search-item {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding-inline-start: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
 }
