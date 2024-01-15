@@ -1,0 +1,32 @@
+@media screen and (max-width:600px) {
+    header{
+        width: 100%;
+        padding: 0 20px;
+    }
+    nav{
+        margin-top: 18px;
+    }
+    .navbar ul{
+        display: none;
+    }
+    #humburger-menu{
+        display: block;
+        width: 10%
+    }
+}
+@media screen and (min-width:600px) and (max-width:992px) {
+    header{
+        width: 100%;
+        padding: 0 20px;
+    }
+    nav{
+        margin-top: 18px;
+    }
+    .navbar ul{
+        display: none;
+    }
+    #humburger-menu{
+        display: block;
+        width: 10%
+    }
+}
