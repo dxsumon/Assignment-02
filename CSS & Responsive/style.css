@@ -22,8 +22,7 @@ header{
 nav{
     max-width: 1170px;
     margin: 0 auto;
-    margin-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     position: sticky;
 }
 .navbar,ul{
@@ -42,6 +41,10 @@ nav{
     list-style: none;
     text-decoration: none;
     font-size: 1.2rem;
+    color: #424247;
+}
+.navbar ul>li>a:hover{
+    color: #868B8E;
 }
 .navbar h2{
     font-size: 2rem;
@@ -49,6 +52,9 @@ nav{
     font-weight: 800;
 }
 #logo-style{
+    color: #FF5400;
+}
+#home{
     color: #FF5400;
 }
 /* Humburger-For-Mobile-Devices */

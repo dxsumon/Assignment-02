@@ -1,10 +1,12 @@
 @media screen and (max-width:600px) {
     header{
         width: 100%;
-        padding: 0 20px;
     }
-    nav{
-        margin-top: 18px;
+    nav {
+        padding: 10px 20px;
+    }
+    .navbar h2{
+        font-size: 1.5rem;
     }
     .navbar ul{
         display: none;
@@ -13,14 +15,16 @@
         display: block;
         width: 10%
     }
+    .logo img{
+        width: 18%;
+    }
 }
 @media screen and (min-width:600px) and (max-width:992px) {
     header{
         width: 100%;
-        padding: 0 20px;
     }
     nav{
-        margin-top: 18px;
+        padding: 10px 20px;
     }
     .navbar ul{
         display: none;
