@@ -1,36 +1,137 @@
 @media screen and (max-width:600px) {
-    header{
+    header {
         width: 100%;
     }
+
+    nav {
+        padding: 10px 20px;
+    }
+
+    .navbar h2 {
+        font-size: 1.5rem;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    #humburger-menu {
+        display: block;
+        width: 7%
+    }
+
+    .logo img {
+        width: 18%;
+    }
+
+    /* banner-section */
+    .banner-container .primary-description {
+        padding-bottom: 32px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px;
+    }
+
+    .banner-container {
+        margin-top: 20px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    .banner-container h1 {
+        padding: 0;
+        color: #FFF;
+        font-size: 1.35rem;
+        font-weight: 800;
+        padding-top: 32px;
+        padding-bottom: 10px;
+    }
+
+    .form-container .search-bar {
+        border: none;
+        font-size: 1rem;
+        color: #FFF;
+    }
+
+    .form-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .search-item{
+        width: 255px;
+        height: 52px;
+    }
+    .search-bar .primary-btn{
+        width: 255px;
+        height: 52px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:992px) {
+    header {
+        width: 100%;
+    }
+
     nav {
         padding: 10px 20px;
     }
     .navbar h2{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
-    .navbar ul{
+    .navbar ul {
         display: none;
     }
-    #humburger-menu{
+
+    #humburger-menu {
         display: block;
-        width: 10%
+        width: 7%
     }
-    .logo img{
-        width: 18%;
+    .banner-container .primary-description {
+        padding-bottom: 32px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px;
     }
-}
-@media screen and (min-width:600px) and (max-width:992px) {
-    header{
-        width: 100%;
+
+    .banner-container {
+        margin-top: 20px;
     }
-    nav{
-        padding: 10px 20px;
+
+    main {
+        width: 80%;
     }
-    .navbar ul{
-        display: none;
+
+    .banner-container h1 {
+        padding: 0;
+        color: #FFF;
+        font-size: 2rem;
+        font-weight: 800;
+        padding-top: 32px;
+        padding-bottom: 10px;
     }
-    #humburger-menu{
-        display: block;
-        width: 10%
+
+    .form-container .search-bar {
+        border: none;
+        font-size: 1rem;
+        color: #FFF;
+    }
+
+    .form-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    .search-item{
+        width: 300px;
+        height: 52px;
+    }
+    .search-bar .primary-btn{
+        width: 300px;
+        height: 52px;
     }
 }
