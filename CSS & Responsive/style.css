@@ -20,15 +20,14 @@ main {
 }
 
 .primary-btn {
+    width: 174px;
+    height: 52px;
     border-radius: 8px;
-    background: #FF5400;
-    cursor: pointer;
-}
-
-.primary-description {
     color: #FFF;
-    font-size: 1rem;
-    line-height: 26px;
+    font-size: 1.25rem;
+    background: #FF5400;
+    border: none;
+    cursor: pointer;
 }
 
 /* Header Styles */
@@ -97,7 +96,7 @@ a {
     display: none;
 }
 
-/* Main section styles */
+/* Main First section styles */
 
 .banner-container {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
@@ -123,6 +122,11 @@ a {
     padding-top: 106px;
     padding-bottom: 25px;
 }
+.banner-description {
+    color: #FFF;
+    font-size: 1rem;
+    line-height: 26px;
+}
 
 /* From section */
 .form-container {
@@ -135,14 +139,14 @@ a {
     margin-bottom: 103px;
 }
 
-.search-bar
-.primary-btn {
+.search-bar .primary-btn {
     width: 174px;
     height: 52px;
     border: none;
     font-size: 1rem;
     color: #FFF;
 }
+
 .search-item {
     width: 174px;
     height: 52px;
@@ -154,4 +158,35 @@ a {
     font-size: 1rem;
     font-weight: 400;
     outline: none;
+}
+
+/* Second Section Styles*/
+
+.second-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.text-items{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.text-items ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.text-items button{
+    font-weight: 800;
+}
+.primary-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
