@@ -160,6 +160,12 @@
    .discount-box{
     font-size: 1rem;
    }
+   .footer-title{
+    padding-top: 40px;
+   }
+   .footer{
+    margin: 50px;
+   }
 }
 
 @media screen and (min-width:600px) and (max-width:992px) {
