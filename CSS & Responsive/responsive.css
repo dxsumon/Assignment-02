@@ -86,10 +86,19 @@
     .text-items {
         gap: 16px;
     }
-
+    .text-items h2{
+        font-size: 1.5rem;
+    }
+    .text-items p{
+        font-size: 14px;
+    }
+    .text-items ul{
+        font-size: 14px;
+    }
     /* thrird Section */
     .destination-image-container {
         grid-template-columns: 1fr;
+        margin-top: 16px;
     }
 
     .destination-image {
@@ -99,6 +108,13 @@
     .destination-heading{
         margin-top: 50px;
     }
+    .destination-heading h2{
+        font-size: 1.5rem;
+        padding-bottom: 16px;
+    }
+    .destination-heading p{
+        font-size: 14px;
+    }
     /* Four section */
     .our-service{
         flex-direction: column;
@@ -106,12 +122,31 @@
     .service-heading p {
         padding: 16px 0;
     }
+    .service-heading h2{
+        font-size: 1.5rem;
+    }
+    .mobile-text-size p{
+        font-size: 14px;
+    }
     .service-price{
         width: 100%;
     }
     .service-heading{
         margin-top: 50px;
     }
+    /* Five section */
+
+   /* Six Section  */
+   .video-container{
+        flex-direction: column;
+        margin-top: 24px;
+   }
+   .video-container h2{
+        font-size: 1.5rem;
+   }
+   .video-container p{
+    font-size: 14px;
+   }
 }
 
 @media screen and (min-width:600px) and (max-width:992px) {
@@ -210,4 +245,5 @@
     .service-heading p {
         padding: 24px 0;
     }
+    /* Five Section */
 }

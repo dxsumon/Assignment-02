@@ -28,6 +28,7 @@ main {
     background: #FF5400;
     border: none;
     cursor: pointer;
+    font-weight: 800;
 }
 
 .primary-description {
@@ -131,7 +132,16 @@ a {
     text-align: center;
     margin-top: 50px;
 }
-
+.search-btn{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #FF5400;
+    border: none;
+    cursor: pointer;
+}
 .banner-container p {
     padding: 0 247px;
     padding-bottom: 48px;
@@ -207,9 +217,6 @@ a {
     color: rgba(19, 19, 24, 0.70);
 }
 
-.text-items button {
-    font-weight: 800;
-}
 
 /* Third Section Styles */
 .destination-heading {
@@ -316,3 +323,47 @@ a {
     margin-bottom: 24px;
 }
 /* Five Section */
+
+.card-title{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 48px;
+    padding: 0 390px;
+}
+.card-title h2{
+    padding-bottom: 24px;
+}
+
+.card-1{
+    background-image: url('../Images/Group\ 39.png');
+    min-height: 500px;
+}
+.card-2{
+
+}
+.card-3{
+    background-image: url('../Images/Group\ 39.png');
+    min-height: 500px;
+}
+/* six Section */
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+.video-description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%
+}
+.video-item{
+    width: 100%;
+}
+.video-description ul{
+    display: inline;
+    margin-left: 20px;
+    color: rgba(19, 19, 24, 0.70);
+}
