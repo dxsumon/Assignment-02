@@ -96,6 +96,16 @@
         grid-column: 1;
         border-radius: 16px;
     }
+    /* Four section */
+    .our-service{
+        flex-direction: column;
+    }
+    .service-heading p {
+        padding: 16px 0;
+    }
+    .service-price{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:600px) and (max-width:992px) {
