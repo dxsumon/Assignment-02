@@ -38,6 +38,20 @@ main {
     line-height: 26px;
 }
 
+.service-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-top: 32px;
+    padding-bottom: 10px;
+}
+
+.service-info {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 /* Header Styles */
 header {
     width: 100%;
@@ -263,11 +277,41 @@ a {
 
 /* Four Section  */
 
-.our-services{
+.service-heading {
     text-align: center;
     margin-top: 100px;
 }
-.our-services p{
+
+.service-heading p {
     padding-top: 24px;
     padding-bottom: 48px;
+}
+
+.service-right-side {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.service-left-side {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.service-price {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.our-service{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
 }
