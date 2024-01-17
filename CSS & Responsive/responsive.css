@@ -147,6 +147,19 @@
    .video-container p{
     font-size: 14px;
    }
+   /* Seven-section */
+   .subscribe-container{
+    flex-direction: column;
+   }
+   .subscribe-left-side{
+    width: 100%;
+   }
+   .subscribe-right-side{
+    width: 100%;
+   }
+   .discount-box{
+    font-size: 1rem;
+   }
 }
 
 @media screen and (min-width:600px) and (max-width:992px) {
